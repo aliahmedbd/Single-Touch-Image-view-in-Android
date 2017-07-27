@@ -1,10 +1,10 @@
 # Single Touch Image view in Android
 
 ### Small description:
-When we want to touch a little image then our mental model want to see that image as big size. In this repositiory, you will find how to crate a generic class to make this functionality.
+When we want to touch a little image, our mental model wants to see that image as big size. In this repository, you will find how to create a generic class to make this functionality.
 
 ### Technique:
-1. I have used a class which have 3 constructor to recieve Context, Bitmap, Uri, and Drawable id.
+1. I have used a class which has 3 constructors to receive Context, Bitmap, Uri, and Drawable id.
  ```java
  public SingleTouchPhotoViewer(Context context, Bitmap bitmap) {
         this.context = context;
@@ -67,8 +67,8 @@ public void openDialogue() {
 
 
 ### Usage:
-1. Create onClickListener in an actvity and initilalize the class then photo will appear in a single touch
-2. In a list also we can add child item click listener then image will appear in a blink.
+1. Create onClickListener in an activity and initialize the class then photo will appear in a single touch
+2. In a list also we can add child item click listener then the image will appear in a blink.
 
 
 #### Thank you and Happy coding.
